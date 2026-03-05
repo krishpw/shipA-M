@@ -322,6 +322,7 @@ export const ApplicationPage: React.FC<ApplicationPageProps> = ({ visible }) => 
     const formDataObj = new FormData();
     // Hidden config fields
     formDataObj.append('_subject', `SH1P A&M App: ${formData.fullName} [${formData.track.toUpperCase()}]`);
+    formDataObj.append('_cc', 'yashramchkulkarni@gmail.com');
     formDataObj.append('_captcha', 'false');
     formDataObj.append('_template', 'table');
     
@@ -397,6 +398,7 @@ export const ApplicationPage: React.FC<ApplicationPageProps> = ({ visible }) => 
             className="hidden"
         >
             <input type="hidden" name="_subject" value={`SH1P A&M App: ${formData.fullName} [${formData.track.toUpperCase()}]`} />
+            <input type="hidden" name="_cc" value="yashramchkulkarni@gmail.com" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="Name" value={formData.fullName} />
