@@ -105,7 +105,7 @@ const Hero: React.FC<{ onApply: () => void }> = ({ onApply }) => (
               <ArrowRight className="w-4 h-4 relative z-10 group-hover:translate-x-1 transition-transform" />
             </button>
             <div className="font-mono text-xs text-slate-500 px-4 py-2 border-l border-slate-800">
-              <div>DEADLINE: FEB 11</div>
+              <div>DEADLINE: TBD</div>
               <div>11:59 PM ET</div>
             </div>
           </motion.div>
@@ -215,11 +215,11 @@ const Program: React.FC = () => (
 
 const Timeline: React.FC = () => {
     const events = [
-        { name: "Coffee Chat Block I", date: "Jan 27 – Jan 31", location: "Varies" },
-        { name: "Info Session + Apps Open", date: "Mon, Feb 9", time: "8:00 PM ET", location: "Zoom", highlight: true },
-        { name: "Coffee Chat Block II", date: "Feb 10 – Feb 11", location: "Varies" },
-        { name: "APPLICATIONS CLOSE", date: "Wed, Feb 11", time: "11:59 PM ET", location: "Hard Stop", critical: true },
-        { name: "Kickoff Social", date: "TBD", time: "7:30 PM", location: "TBD" },
+        { name: "Coffee Chat Block I", date: "TBD", location: "Varies" },
+        { name: "Coffee", date: "TBD", time: "TBD", location: "Zoom", highlight: true },
+        { name: "Coffee Chat Block II", date: "TBD", location: "Varies" },
+        { name: "APPLICATIONS CLOSE", date: "TBD", time: "TBD", location: "Hard Stop", critical: true },
+        { name: "Kickoff Social", date: "TBD", time: "TBD", location: "TBD" },
     ];
     return (
         <section className="py-24 px-6 border-b border-slate-800 bg-[#02040A]">
