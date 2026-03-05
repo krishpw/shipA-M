@@ -247,7 +247,6 @@ const Mentors: React.FC = () => {
         { name: "Krish Naresh", role: "National Founder", signal: "Incoming Summer Analyst @ J.P. Morgan" },
         { name: "Yash Kulkarni", role: "A&M VC Lead", signal: "Texas A&M University | AI Engineer @ Shake" },
         { name: "Mann Bellani", role: "A&M Tech Co-Lead", signal: "Prev @ Southwest" },
-        { name: "Pranav Uttarkar", role: "A&M Tech Co-Lead", signal: "CS Honors + Meloy Kickstart Coordinator" }
     ];
     return (
         <section className="py-24 px-6 bg-[#02040A]">
