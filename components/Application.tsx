@@ -106,7 +106,7 @@ export const Application: React.FC = () => {
         <p className="text-xl text-engine-muted max-w-xl mb-12">
             The link to the Venture Analyst and Founder application is live.
             <br/>
-            <span className="text-utd text-sm font-mono mt-2 block">DEADLINE: FEB 11 @ 11:59 PM ET</span>
+            <span className="text-utd text-sm font-mono mt-2 block">DEADLINE: TBD </span>
         </p>
         
         <button 
@@ -222,7 +222,7 @@ export const Application: React.FC = () => {
                               />
                             </div>
                             <div>
-                              <label className="block text-xs font-mono text-engine-muted mb-2 uppercase">UTD Email Address</label>
+                              <label className="block text-xs font-mono text-engine-muted mb-2 uppercase"> A&M Email Address</label>
                               <div className="relative">
                                 <input 
                                   type="email" 
@@ -242,7 +242,7 @@ export const Application: React.FC = () => {
                                 )}
                               </div>
                               {formData.email.length > 0 && !formData.email.includes('@utdallas.edu') && (
-                                <p className="text-[10px] text-red-500 mt-1 font-mono">MUST BE UTD EMAIL</p>
+                                <p className="text-[10px] text-red-500 mt-1 font-mono">MUST BE A&M EMAIL</p>
                               )}
                             </div>
                             <div>
